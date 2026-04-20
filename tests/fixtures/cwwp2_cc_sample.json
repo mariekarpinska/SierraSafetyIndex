@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "location": {
+        "locationName": "I-80 - Donner Summit - Near Norden",
+        "county": "NEV",
+        "route": "80",
+        "postmile": "088.0",
+        "nearCityName": "Truckee",
+        "latitude": "39.3232",
+        "longitude": "-120.3253",
+        "elevation": "7227"
+      },
+      "status": {
+        "ccStatus": "R2",
+        "ccStatusDescription": "Chains Required Except 4WD Snow Tires",
+        "ccRestriction": "R2",
+        "ccStatusUpdateTime": "2024-01-15 07:15:00",
+        "ccStatusStartTime": "2024-01-15 05:00:00",
+        "ccStatusExpirationTime": "2024-01-15 15:00:00"
+      }
+    },
+    {
+      "location": {
+        "locationName": "I-80 - Emigrant Gap",
+        "county": "PLA",
+        "route": "80",
+        "postmile": "074.0",
+        "nearCityName": "Emigrant Gap",
+        "latitude": "39.2835",
+        "longitude": "-120.6715",
+        "elevation": "5224"
+      },
+      "status": {
+        "ccStatus": "R1",
+        "ccStatusDescription": "Chains Required Except 4WD Snow Tires With Traction Devices",
+        "ccRestriction": "R1",
+        "ccStatusUpdateTime": "2024-01-15 07:10:00",
+        "ccStatusStartTime": "2024-01-15 05:00:00",
+        "ccStatusExpirationTime": "2024-01-15 15:00:00"
+      }
+    },
+    {
+      "location": {
+        "locationName": "I-80 - Colfax",
+        "county": "PLA",
+        "route": "80",
+        "postmile": "056.0",
+        "nearCityName": "Colfax",
+        "latitude": "39.1002",
+        "longitude": "-120.9533",
+        "elevation": "2421"
+      },
+      "status": {
+        "ccStatus": "None",
+        "ccStatusDescription": "No Chain Control",
+        "ccRestriction": "None",
+        "ccStatusUpdateTime": "2024-01-15 07:00:00",
+        "ccStatusStartTime": null,
+        "ccStatusExpirationTime": null
+      }
+    }
+  ]
+}

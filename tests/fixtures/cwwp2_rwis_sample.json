@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "rwis": {
+        "index": "1",
+        "location": {
+          "locationName": "Hwy 80 at Donner Summit",
+          "nearbyPlace": "Truckee",
+          "route": "I-80",
+          "latitude": "39.3232",
+          "longitude": "-120.3253",
+          "elevation": "7227"
+        },
+        "inService": "true",
+        "rwisData": {
+          "windData": {
+            "essAvgWindSpeed": "156",
+            "essSpotWindSpeed": "170",
+            "essMaxWindGustSpeed": "246"
+          },
+          "temperatureData": {
+            "essTemperatureSensorTable": [
+              {
+                "essTemperatureSensorEntry": {
+                  "essTemperatureSensorIndex": "1",
+                  "essAirTemperature": "-30"
+                }
+              }
+            ],
+            "essWetbulbTemp": "1001",
+            "essDewpointTemp": "-60"
+          },
+          "humidityPrecipData": {
+            "essRelativeHumidity": "85",
+            "essPrecipYesNo": "1",
+            "essPrecipRate": "3",
+            "essPrecipSituation": "8"
+          },
+          "visibilityData": {
+            "essVisibility": "482",
+            "essVisibilitySituation": "4"
+          },
+          "pavementSensorData": {
+            "essPavementSensorTable": [
+              {
+                "essPavementSensorEntry": {
+                  "essPavementSensorIndex": "1",
+                  "essSurfaceStatus": "9",
+                  "essSurfaceTemperature": "-52"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "rwis": {
+        "index": "2",
+        "location": {
+          "locationName": "Hwy 80 at Blue Canyon",
+          "nearbyPlace": "Emigrant Gap",
+          "route": "I-80",
+          "latitude": "39.2835",
+          "longitude": "-120.6715",
+          "elevation": "5224"
+        },
+        "inService": "true",
+        "rwisData": {
+          "windData": {
+            "essAvgWindSpeed": "89",
+            "essSpotWindSpeed": "95",
+            "essMaxWindGustSpeed": "156"
+          },
+          "temperatureData": {
+            "essTemperatureSensorTable": [
+              {
+                "essTemperatureSensorEntry": {
+                  "essTemperatureSensorIndex": "1",
+                  "essAirTemperature": "-10"
+                }
+              }
+            ],
+            "essWetbulbTemp": "1001",
+            "essDewpointTemp": "-40"
+          },
+          "humidityPrecipData": {
+            "essRelativeHumidity": "75",
+            "essPrecipYesNo": "1",
+            "essPrecipRate": "2",
+            "essPrecipSituation": "7"
+          },
+          "visibilityData": {
+            "essVisibility": "1207",
+            "essVisibilitySituation": "3"
+          },
+          "pavementSensorData": {
+            "essPavementSensorTable": [
+              {
+                "essPavementSensorEntry": {
+                  "essPavementSensorIndex": "1",
+                  "essSurfaceStatus": "7",
+                  "essSurfaceTemperature": "-21"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

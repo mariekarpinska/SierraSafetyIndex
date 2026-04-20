@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1705320000000,
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+    "title": "USGS All Earthquakes, Past Hour",
+    "status": 200,
+    "api": "1.10.3",
+    "count": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "15 km NE of Truckee, CA",
+        "time": 1705318800000,
+        "updated": 1705319800000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73000001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73000001.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "nc",
+        "code": "73000001",
+        "ids": ",nc73000001,",
+        "sources": ",nc,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.1,
+        "rms": 0.12,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 15 km NE of Truckee, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.4, 39.3, 5.0]
+      },
+      "id": "nc73000001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "20 km SW of Auburn, CA",
+        "time": 1705317000000,
+        "updated": 1705318000000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73000002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73000002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "nc",
+        "code": "73000002",
+        "ids": ",nc73000002,",
+        "sources": ",nc,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.2,
+        "rms": 0.08,
+        "gap": 120,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 20 km SW of Auburn, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.25, 38.75, 8.0]
+      },
+      "id": "nc73000002"
+    }
+  ],
+  "bbox": [-122.0, 38.0, 0.0, -119.0, 40.5, 50.0]
+}

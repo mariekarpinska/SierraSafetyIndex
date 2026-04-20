@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "RoadEvent",
+  "namespace": "com.sierra.safety",
+  "fields": [
+    {"name": "segment_id", "type": "string"},
+    {"name": "segment_name", "type": "string"},
+    {"name": "lat", "type": "double"},
+    {"name": "lon", "type": "double"},
+    {"name": "elevation_ft", "type": "int"},
+    {"name": "timestamp_utc", "type": "string"},
+    {"name": "score", "type": "int"},
+    {"name": "band", "type": "string"},
+    {"name": "active_penalties", "type": {"type": "array", "items": "string"}},
+    {"name": "chain_control", "type": ["null", "string"], "default": null},
+    {"name": "road_closed", "type": ["null", "boolean"], "default": null},
+    {"name": "snowfall_rate_in_hr", "type": ["null", "double"], "default": null},
+    {"name": "visibility_miles", "type": ["null", "double"], "default": null},
+    {"name": "wind_gust_mph", "type": ["null", "double"], "default": null},
+    {"name": "surface_temp_c", "type": ["null", "double"], "default": null},
+    {"name": "seismic_mag", "type": ["null", "double"], "default": null}
+  ]
+}

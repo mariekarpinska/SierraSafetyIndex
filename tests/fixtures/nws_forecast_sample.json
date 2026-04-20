@@ -1,0 +1,77 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[]]
+  },
+  "properties": {
+    "updated": "2024-01-15T06:48:22+00:00",
+    "units": "us",
+    "forecastGenerator": "HourlyForecastGenerator",
+    "generatedAt": "2024-01-15T07:00:00+00:00",
+    "updateTime": "2024-01-15T06:48:22+00:00",
+    "validTimes": "2024-01-15T06:00:00+00:00/P7DT18H",
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 2202.0
+    },
+    "periods": [
+      {
+        "number": 1,
+        "name": "",
+        "startTime": "2024-01-15T07:00:00-08:00",
+        "endTime": "2024-01-15T08:00:00-08:00",
+        "isDaytime": true,
+        "temperature": 18,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": 95
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": -12.2
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 88
+        },
+        "windSpeed": "25 mph",
+        "windGust": "45 mph",
+        "windDirection": "SW",
+        "icon": "https://api.weather.gov/icons/land/day/snow,90?size=small",
+        "shortForecast": "Heavy Snow",
+        "detailedForecast": ""
+      },
+      {
+        "number": 2,
+        "name": "",
+        "startTime": "2024-01-15T08:00:00-08:00",
+        "endTime": "2024-01-15T09:00:00-08:00",
+        "isDaytime": true,
+        "temperature": 17,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": 90
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": -13.0
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 90
+        },
+        "windSpeed": "30 mph",
+        "windGust": "50 mph",
+        "windDirection": "SW",
+        "icon": "https://api.weather.gov/icons/land/day/snow,90?size=small",
+        "shortForecast": "Heavy Snow",
+        "detailedForecast": ""
+      }
+    ]
+  }
+}

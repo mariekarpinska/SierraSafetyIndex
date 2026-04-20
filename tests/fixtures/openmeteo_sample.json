@@ -1,0 +1,29 @@
+{
+  "latitude": 39.3232,
+  "longitude": -120.3253,
+  "generationtime_ms": 0.123,
+  "utc_offset_seconds": 0,
+  "timezone": "GMT",
+  "timezone_abbreviation": "GMT",
+  "elevation": 2202.0,
+  "current_units": {
+    "time": "iso8601",
+    "interval": "seconds",
+    "temperature_2m": "\u00b0C",
+    "snowfall": "cm",
+    "snow_depth": "m",
+    "wind_speed_10m": "km/h",
+    "wind_gusts_10m": "km/h",
+    "visibility": "m"
+  },
+  "current": {
+    "time": "2024-01-15T07:00",
+    "interval": 900,
+    "temperature_2m": -4.5,
+    "snowfall": 1.5,
+    "snow_depth": 1.42,
+    "wind_speed_10m": 56.4,
+    "wind_gusts_10m": 88.5,
+    "visibility": 500
+  }
+}

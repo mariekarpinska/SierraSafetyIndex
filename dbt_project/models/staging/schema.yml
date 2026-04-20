@@ -1,0 +1,32 @@
+version: 2
+
+# sources block — tells dbt where raw BQ tables live, not defining them
+sources:
+  - name: sierra_safety
+    database: "{{ env_var('GCP_PROJECT_ID') }}"  # pulled from env, don't hardcode
+    schema: "{{ env_var('BIGQUERY_DATASET', 'sierra_safety') }}"  # defaults to sierra_safety if not set
+    tables:
+      - name: raw_road_events  # written by spark consumer, one row per poll per segment
+      - name: safety_scores    # 15-min tumbling window aggregates, also from spark
+      - name: crashes          # CCRS crash records, loaded via backfill or airflow
+
+# models block — column docs for dbt docs generate + data contracts
+models:
+  - name: stg_road_events
+    description: Staged road events from the raw ingestion table
+    columns:
+      - name: segment_id
+        description: Corridor segment identifier  # SEG_01 thru SEG_15
+      - name: score
+        description: Safety score 0-100  # higher = safer, 0 = road closed
+      - name: band
+        description: Color band (GREEN/YELLOW/ORANGE/RED/BLACK)  # derived from score ranges in scoring/safety_score.py
+
+  - name: stg_safety_scores
+    description: Staged 15-minute window aggregations from Spark  # pre-aggregated upstream, not raw events
+
+  - name: stg_crashes
+    description: Staged crash records with primary_factor normalized to readable labels
+
+  - name: mart_crash_conditions
+    description: Crash records joined with road conditions at time of crash  # powers crash tile on dashboard
