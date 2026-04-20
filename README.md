@@ -12,6 +12,7 @@
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+[![codecov](https://codecov.io/gh/mariekarpinska/SierraSafetyIndex/branch/main/graph/badge.svg)](https://codecov.io/gh/mariekarpinska/SierraSafetyIndex)
 
 ---
 
